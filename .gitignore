@@ -194,3 +194,4 @@ cython_debug/
 .cursorindexingignore
 
 uploaded_audios/
+audios_otimizados/
