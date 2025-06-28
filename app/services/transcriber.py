@@ -1,13 +1,14 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
+import streamlit as st
 
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def transcrever_audio_openai(caminho_audio: str, idioma="pt") -> str:
     
-    print("[🔁] Enviando áudio para transcrição...")
+    st.info("🔁 Enviando áudio para transcrição...")
 
     with open(caminho_audio, "rb") as audio_file:
         response = client.audio.transcriptions.create(
@@ -26,7 +27,7 @@ def transcrever_audio_openai(caminho_audio: str, idioma="pt") -> str:
     with open(caminho_txt, "w", encoding="utf-8") as f:
         f.write(response)
         
-    print(f"[✅] Transcrição salva em: {caminho_txt}")
+    st.success(f"✅ Transcrição salva em: {caminho_txt}")
 
 
     return caminho_txt

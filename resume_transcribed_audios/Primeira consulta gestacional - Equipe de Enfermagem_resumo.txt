@@ -1,25 +1,30 @@
-**Resumo da Consulta:**
+```markdown
+# Resumo da Consulta
 
-1. **Contexto Clínico do(a) Paciente:**
-   - Paciente Esté Alves, 22 anos, com suspeita de gravidez confirmada por teste de farmácia e teste de urina realizado na consulta.
-   - Primeira gestação, não planejada, com situação socioeconômica instável. Mora com a mãe, que possui problemas de saúde.
+## 1. Contexto Clínico do(a) Paciente
+- Paciente: Esté Alves, 22 anos.
+- Situação socioeconômica: Trabalha como freelancer em um bar, mora com a mãe que é hipertensa.
+- Situação familiar: Relacionamento estável, mas não formalizado com o parceiro Pedro Santos.
+- Histórico médico: Sem doenças crônicas relatadas.
 
-2. **Sintomas e Queixas Principais:**
-   - Atraso menstrual de aproximadamente 22 dias.
-   - Preocupação e ansiedade em relação à gravidez não planejada e à reação do parceiro e da família.
+## 2. Sintomas e Queixas Principais
+- Atraso menstrual de aproximadamente 22 dias.
+- Teste de gravidez de farmácia realizado, com resultado positivo.
+- Preocupações com a estabilidade financeira e reação do parceiro e da família à gravidez não planejada.
 
-3. **Procedimentos e Condutas Aplicadas:**
-   - Realização de teste de gravidez de urina, confirmando resultado positivo.
-   - Aferição de sinais vitais.
-   - Coleta de sangue para exames de sorologia (HIV, hepatites, sífilis) e tipagem sanguínea.
-   - Preenchimento da caderneta da gestante e orientações sobre a importância de portá-la.
-   - Discussão sobre acompanhamento pré-natal, incluindo consultas intercaladas com enfermeiro e médico.
-   - Prescrição de ácido fólico e ferro.
-   - Orientações sobre a continuidade do acompanhamento na UBS, incluindo consultas com nutricionista, psicólogo e dentista.
+## 3. Procedimentos e Condutas Aplicadas
+- Realização de teste de gravidez de urina na clínica, confirmando resultado positivo.
+- Abertura de prontuário e preenchimento da caderneta da gestante.
+- Coleta de exames laboratoriais para sorologia (HIV, hepatites, sífilis) e tipagem sanguínea.
+- Aferição de sinais vitais.
+- Prescrição de ácido fólico e ferro.
+- Orientação sobre a importância de consultas pré-natais e acompanhamento multidisciplinar (nutricionista, psicólogo, enfermeiro).
 
-4. **Encaminhamentos ou Próximos Passos:**
-   - Marcar exames laboratoriais e de imagem.
-   - Encaminhamento para consulta odontológica.
-   - Próxima consulta agendada para o próximo mês, com aumento da frequência no último trimestre.
-   - Instruções para suspender o uso de anticoncepcional e iniciar suplementação prescrita.
-   - Orientação para listar dúvidas para discussão em consultas futuras.
+## 4. Encaminhamentos ou Próximos Passos
+- Agendamento de consultas pré-natais mensais, intercalando entre médico e enfermeiro.
+- Encaminhamento para exames de imagem e consulta odontológica.
+- Instruções para marcar exames laboratoriais no posto de saúde.
+- Próxima consulta médica agendada para dois meses, com consultas quinzenais no último trimestre.
+- Orientações sobre cuidados durante a gestação e esclarecimento de dúvidas futuras.
+
+```

@@ -1,13 +1,14 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
+import streamlit as st
 
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def gerar_resumo(caminho_transcricao: str) -> str:
     
-    print("[📝] Gerando resumo da transcrição...")
+    st.info("📝 Gerando resumo da transcrição...")
 
     with open(caminho_transcricao, "r", encoding="utf-8") as f:
         texto = f.read()
@@ -19,7 +20,7 @@ def gerar_resumo(caminho_transcricao: str) -> str:
                         3. Procedimentos e condutas aplicadas
                         4. Encaminhamentos ou próximos passos
 
-                        Escreva em português claro, com frases completas, no estilo de anotações clínicas."""
+                        Escreva em português claro, com frases completas, no estilo de anotações clínicas. Gere o texto em formato markdown"""
 
     response = client.chat.completions.create(
         model="gpt-4o",
@@ -40,7 +41,6 @@ def gerar_resumo(caminho_transcricao: str) -> str:
     with open(caminho_resumo, "w", encoding="utf-8") as f:
         f.write(resumo)
         
-    print(f"[✅] Resumo salvo em: {caminho_resumo}")
-
+    st.success(f"✅ Resumo salvo em: {caminho_resumo}")
 
     return caminho_resumo
