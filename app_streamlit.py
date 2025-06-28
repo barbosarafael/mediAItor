@@ -5,8 +5,8 @@ from pathlib import Path
 import os
 
 # Dados fixos de login
-USUARIO_CORRETO = "admin"
-SENHA_CORRETA = "admin123"
+USUARIO_CORRETO = os.getenv("LOGIN")
+SENHA_CORRETA = os.getenv("PASSWORD")
 
 def login():
     st.title("Login")
@@ -26,7 +26,7 @@ def logout():
         st.rerun()
 
 def main_app():
-    st.title("mediAItor - Plataforma de Transcrição e Resumo Médico")
+    st.title("Plataforma de transcrição de consultas")
 
     logout()
 

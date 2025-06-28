@@ -1,30 +1,27 @@
-```markdown
 # Resumo da Consulta
 
 ## 1. Contexto Clínico do(a) Paciente
 - Paciente: Esté Alves, 22 anos.
-- Situação socioeconômica: Trabalha como freelancer em um bar, mora com a mãe que é hipertensa.
-- Situação familiar: Relacionamento estável, mas não formalizado com o parceiro Pedro Santos.
-- Histórico médico: Sem doenças crônicas relatadas.
+- Suspeita de gravidez após teste de farmácia positivo.
+- Primeira gestação, não planejada.
+- Situação socioeconômica instável: trabalha como freelancer em um bar, mora com a mãe que tem hipertensão.
 
 ## 2. Sintomas e Queixas Principais
-- Atraso menstrual de aproximadamente 22 dias.
-- Teste de gravidez de farmácia realizado, com resultado positivo.
-- Preocupações com a estabilidade financeira e reação do parceiro e da família à gravidez não planejada.
+- Atraso menstrual de 22 dias.
+- Ansiedade e nervosismo em relação à gravidez não planejada.
+- Preocupações com a reação do parceiro e da família.
 
 ## 3. Procedimentos e Condutas Aplicadas
 - Realização de teste de gravidez de urina na clínica, confirmando resultado positivo.
 - Abertura de prontuário e preenchimento da caderneta da gestante.
-- Coleta de exames laboratoriais para sorologia (HIV, hepatites, sífilis) e tipagem sanguínea.
+- Coleta de exames laboratoriais: sorologia para HIV, hepatites, sífilis, tipagem sanguínea.
 - Aferição de sinais vitais.
 - Prescrição de ácido fólico e ferro.
-- Orientação sobre a importância de consultas pré-natais e acompanhamento multidisciplinar (nutricionista, psicólogo, enfermeiro).
+- Orientações sobre a importância de consultas regulares e acompanhamento pré-natal.
 
 ## 4. Encaminhamentos ou Próximos Passos
-- Agendamento de consultas pré-natais mensais, intercalando entre médico e enfermeiro.
+- Marcar consultas regulares intercaladas entre enfermeiro e médico.
 - Encaminhamento para exames de imagem e consulta odontológica.
 - Instruções para marcar exames laboratoriais no posto de saúde.
-- Próxima consulta médica agendada para dois meses, com consultas quinzenais no último trimestre.
-- Orientações sobre cuidados durante a gestação e esclarecimento de dúvidas futuras.
-
-```
+- Próxima consulta médica agendada para o próximo mês.
+- Recomendação para manter a caderneta da gestante sempre consigo e anotar dúvidas para consultas futuras.

@@ -20,7 +20,7 @@ def gerar_resumo(caminho_transcricao: str) -> str:
                         3. Procedimentos e condutas aplicadas
                         4. Encaminhamentos ou próximos passos
 
-                        Escreva em português claro, com frases completas, no estilo de anotações clínicas. Gere o texto em formato markdown"""
+                        Escreva em português claro, com frases completas, no estilo de anotações clínicas. Utilize formatação em Markdown (com títulos, subtítulos, listas), mas não inclua a tag ```markdown."""
 
     response = client.chat.completions.create(
         model="gpt-4o",
