@@ -21,14 +21,18 @@ def remover_silencios(audio: AudioSegment, limiar_db: int = -40, padding_ms: int
         return sum(partes)
     return audio  # Caso não encontre silêncio, retorna original
 
-def dividir_audio(audio: AudioSegment, duracao_max_segundos: int = 20 * 1000) -> list[BytesIO]:
+def dividir_audio(audio: AudioSegment, duracao_max_segundos: int = 20) -> list[BytesIO]:
+    """Divide um áudio em partes de até `duracao_max_segundos` segundos."""
     partes = []
-    for i in range(0, len(audio), duracao_max_segundos):
-        parte = audio[i:i + duracao_max_segundos]
+    duracao_ms = duracao_max_segundos * 1000  # conversão correta para milissegundos
+
+    for i in range(0, len(audio), duracao_ms):
+        parte = audio[i:i + duracao_ms]
         buffer = BytesIO()
         parte.export(buffer, format="wav")
         buffer.seek(0)
         partes.append(buffer)
+
     return partes
 
 def otimizar_e_dividir(caminho_audio: str, remover_arquivos: bool = False) -> list[str]:
@@ -40,7 +44,7 @@ def otimizar_e_dividir(caminho_audio: str, remover_arquivos: bool = False) -> li
     audio = normalizar_volume(audio)
     audio = remover_silencios(audio)
 
-    partes = dividir_audio(audio)
+    partes = dividir_audio(audio, duracao_max_segundos = 60)
 
     # Salvar partes em disco
     caminhos_salvos = []

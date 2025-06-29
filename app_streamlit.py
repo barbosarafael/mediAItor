@@ -42,9 +42,9 @@ def main_app():
 
         with open(caminho_audio, "wb") as f:
             f.write(audio_file.getbuffer())
-
+            
         # Processar transcrição e resumo
-        caminho_transcricao = transcrever_audio_openai(caminho_audio)
+        caminho_transcricao = transcrever_audio_openai(caminho_audio, nome_base = 'asdf')
         caminho_resumo = gerar_resumo(caminho_transcricao)
 
         # Ler resumo e mostrar

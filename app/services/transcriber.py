@@ -11,7 +11,7 @@ def transcrever_audio_openai(caminho_audio: str, nome_base: str, idioma="pt") ->
     
     print("[🔁] Otimizando áudio para transcrição")
     
-    caminhos_segmentos = otimizar_e_dividir(caminho_audio)
+    caminhos_segmentos = otimizar_e_dividir(caminho_audio, remover_arquivos=True)
     
     transcricao_final = ""
     for i, caminho_parte in enumerate(caminhos_segmentos):
@@ -20,7 +20,7 @@ def transcrever_audio_openai(caminho_audio: str, nome_base: str, idioma="pt") ->
         with open(caminho_parte, "rb") as f:
             result = client.audio.transcriptions.create(
                 model="whisper-1",
-                file=f,  # <-- Aqui está a correção
+                file=f, 
                 language=idioma,
                 prompt="The next conversation is a medical consultation between a doctor and a patient or patients",
                 response_format="text"

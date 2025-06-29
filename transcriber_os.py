@@ -7,7 +7,7 @@ def transcrever_audio_local(caminho_audio: str, nome_base: str) -> str:
     print("[🔁] Otimizando áudio para transcrição local com Whisper...")
     caminhos_segmentos = otimizar_e_dividir(caminho_audio)
 
-    model = whisper.load_model("medium")  # ou "small", "medium", "large"
+    model = whisper.load_model("large")  # ou "small", "medium", "large"
     transcricao_final = ""
 
     for i, caminho_parte in enumerate(caminhos_segmentos):

@@ -9,4 +9,4 @@ if __name__ == "__main__":
     if not Path(caminho_audio).exists():
         raise FileNotFoundError("❌ Áudio não encontrado.")
 
-    caminho_transcricao = transcrever_audio_local(caminho_audio = caminho_audio, nome_base = "Primeira consulta gestacional - Equipe de Enfermagem - Audio cleaned")
+    caminho_transcricao = transcrever_audio_local(caminho_audio = caminho_audio, nome_base = "Primeira consulta gestacional - Equipe de Enfermagem - Audio cleaned - Better whisper")
